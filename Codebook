@@ -1,4 +1,3 @@
-
 30 partipants wore a Samsung device and performed the following activities:
 
 Walking
@@ -55,4 +54,10 @@ tBodyAccMean
 tBodyAccJerkMean
 tBodyGyroMean
 tBodyGyroJerkMean
+
+The original data set has 561 variables. The code from the assigment results in only 81 variables
+as we pulled out only the mean and standard deviation variables for all measured signals. 
+
+We then pulled the mean and standard deviation of all observed signals for each activity for reach participant,
+resulting in 180 rows of data. 
 
