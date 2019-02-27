@@ -58,6 +58,4 @@ library(dplyr)
 cleandata <- group_by(cleandata, ID, activity)
 cleandatamean <- summarize_all(cleandata, function(x) mean(x))
 
-cleandata <- arrange(cleandata, ID, activity)
-
 write.table(cleandata, "Clean Data.txt", row.names = FALSE)
